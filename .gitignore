@@ -1,25 +1,33 @@
-# macOS and per-user Xcode state
-.DS_Store
-**/xcuserdata/
-*.xcuserstate
+.*
+!.github/
+!.gitignore
 
-# Build products and local tooling
-DerivedData/
-build/
-*.xcarchive
-*.ipa
-*.dSYM/
-
-# Private local configuration and signing material
+# Local configuration and credentials
 .env
 .env.*
 !.env.example
-*.p12
-*.pem
-*.key
 credentials/
 private/
+*.key
+*.pem
+*.p12
+*.pfx
 *.mobileprovision
 
-# Accounts, password hashes, bearer tokens, and synced personal records
+# Private data and operational records
 /mars-momentum/MarsMomentumServer/data/
+*.log
+
+# Xcode, Node, and editor artifacts
+**/xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.xcresult
+*.ipa
+*.dSYM/
+node_modules/
+.DS_Store
+.idea/
+.vscode/
