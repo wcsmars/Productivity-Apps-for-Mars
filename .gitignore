@@ -31,3 +31,7 @@ node_modules/
 .DS_Store
 .idea/
 .vscode/
+
+# Conflict copies made by iCloud Drive or Finder ("EntryStore 2.swift")
+* [2-9].*
+* [2-9]
