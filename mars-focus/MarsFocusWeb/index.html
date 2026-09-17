@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#722f37">
+  <title>Mars Focus</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+</head>
+<body>
+  <div id="app">
+    <main id="main"></main>
+
+    <nav class="tabbar" id="tabbar">
+      <button data-tab="focus"><span class="tab-icon">🛡</span>Focus</button>
+      <button data-tab="blocklists"><span class="tab-icon">✋</span>Blocklists</button>
+      <button data-tab="calendar"><span class="tab-icon">📅</span>Calendar</button>
+      <button data-tab="history"><span class="tab-icon">▦</span>History</button>
+      <button data-tab="coach"><span class="tab-icon">✦</span>Coach</button>
+    </nav>
+
+    <dialog id="dlg-start"></dialog>
+    <dialog id="dlg-pomodoro"></dialog>
+    <dialog id="dlg-blocklist"></dialog>
+    <dialog id="dlg-rule"></dialog>
+    <dialog id="dlg-day"></dialog>
+    <dialog id="dlg-settings"></dialog>
+  </div>
+  <script src="storage-lock.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

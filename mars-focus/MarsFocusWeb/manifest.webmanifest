@@ -1,0 +1,13 @@
+{
+  "name": "Mars Focus",
+  "short_name": "Mars Focus",
+  "description": "Mars’s focus companion: focus sessions, distraction lists, schedules, streaks, and an optional AI coach.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#722f37",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

@@ -1,0 +1,25 @@
+# macOS and per-user Xcode state
+.DS_Store
+**/xcuserdata/
+*.xcuserstate
+
+# Build products and local tooling
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM/
+
+# Private local configuration and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.pem
+*.key
+credentials/
+private/
+*.mobileprovision
+
+# Accounts, password hashes, bearer tokens, and synced personal records
+/mars-momentum/MarsMomentumServer/data/
